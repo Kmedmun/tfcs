@@ -16,8 +16,8 @@ jQuery(document).ready(function($){
   let urdu=['/v/']
   let vietnamese=[]
 
-  let languages=[arabic,cantonese,fuzhounese,mandarin,french,japanese,korean,portuguese,russian,spanish,turkish];
-  let languageNames=['arabic','cantonese','fuzhounese','mandarin','french','japanese','korean','portuguese','russian','spanish','turkish'];
+  let languages=[arabic,cantonese,fuzhounese,mandarin,french,japanese,korean,portuguese,russian,spanish,turkish,urdu];
+  let languageNames=['arabic','cantonese','fuzhounese','mandarin','french','japanese','korean','portuguese','russian','spanish','turkish','urdu'];
 
   // add languages to highlight for each phoneme
   languages.forEach( (lang, i) => { 
